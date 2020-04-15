@@ -14,7 +14,7 @@ public class Assignment_2
   {
 	  int f;
 	  f=d-e;
-	  return f;		 
+	  return f;		 //(trying
   }
   
 public int mult(int g,int h)
