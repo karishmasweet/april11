@@ -13,45 +13,34 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TC7 
+public class TC7 extends Base
 {
-	public ChromeDriver driver;
-	@BeforeMethod
-	 public void browserlaunch() throws InterruptedException
-	 {
-		 System.setProperty("webdriver.chrome.driver","/Users/karishma/eclipse-workspace/A1/chromedriver");
-		 ChromeOptions options = new ChromeOptions();
-		 options.setPageLoadStrategy(PageLoadStrategy.NONE);
-		 driver=new ChromeDriver(options);
-	     driver.manage().window().maximize();
-	     driver.get("https://www.youtube.com");
-	     Thread.sleep(10000);
-	 }
+	
 	
 	@Test
 	public void test() throws InterruptedException
 	{
-		WebElement login=driver.findElement(By.xpath("//yt-formatted-string[@class='style-scope ytd-button-renderer style-suggestive size-small']"));
+		WebElement login=driver.findElement(By.xpath(pr.getProperty("login")));
 		login.click();
 		
 		Thread.sleep(5000);
-		WebElement email=driver.findElement(By.xpath("//input[@type='email']"));
+		WebElement email=driver.findElement(By.xpath(pr.getProperty("email")));
 		email.sendKeys("kashu120012@gmail.com");
 		
 	
-		WebElement next=driver.findElement(By.xpath("//span[@class='CwaK9']"));
+		WebElement next=driver.findElement(By.xpath(pr.getProperty("next")));
 		next.click();
 		
 		Thread.sleep(5000);
-		WebElement password=driver.findElement(By.xpath("//input[@type='password']"));
+		WebElement password=driver.findElement(By.xpath(pr.getProperty("password")));
 		password.sendKeys("Qwerty2123");
 		
-		WebElement next2=driver.findElement(By.xpath("//span[@class='RveJvd snByac']"));
+		WebElement next2=driver.findElement(By.xpath(pr.getProperty("next2")));
 		next2.click();
 		
 		Thread.sleep(10000);
-		List<WebElement> video=driver.findElements(By.id("video-title"));
-		video.get(4).click();//it is going to fourth vide0
+		List<WebElement> video=driver.findElements(By.id(pr.getProperty("video")));
+		video.get(4).click();//it is going to fourth video
 		
 		Thread.sleep(10000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -59,32 +48,26 @@ public class TC7
 	
 		
 		Thread.sleep(10000);
-		driver.findElement(By.xpath("//yt-formatted-string[contains(text(),'Add a public comment...')]")).click();
+		driver.findElement(By.xpath(pr.getProperty("commentbox"))).click();
 //		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		Thread.sleep(10000);
-		WebElement comment=driver.findElement(By.xpath("//div[@id='contenteditable-root' and @aria-label='Add a public comment...']"));
+		WebElement comment=driver.findElement(By.xpath(pr.getProperty("comment")));
 		comment.sendKeys("nice");
 		
 		Thread.sleep(10000);
-		WebElement commentSubmit = driver.findElement(By.xpath("//yt-formatted-string[@id='text' and text()='Comment']"));
+		WebElement commentSubmit = driver.findElement(By.xpath(pr.getProperty("commentSubmit")));
 		commentSubmit.click();
 		
 		Thread.sleep(10000);
-		WebElement signout=driver.findElement(By.xpath("//img[@class='style-scope yt-img-shadow' and @alt='Avatar image']"));
+		WebElement signout=driver.findElement(By.xpath(pr.getProperty("signout")));
 		signout.click();
 		
 		Thread.sleep(5000);
-		WebElement out=driver.findElement(By.xpath("//yt-formatted-string[text()='Sign out']"));
+		WebElement out=driver.findElement(By.xpath(pr.getProperty("out")));
 		out.click();
 		
 	}
 	
-	@AfterMethod
-	public void close()
-	{
-		driver.close();
-	}
-
 
 }
