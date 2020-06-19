@@ -49,7 +49,7 @@ public class child extends parent
 //Child 4 parameterized constructor
 //Child 2 parameterized constructor
 
-		
+		//here is sequence from bottom first print child 2
 		
 		
 	}
