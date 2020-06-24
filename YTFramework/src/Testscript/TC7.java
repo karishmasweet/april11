@@ -1,4 +1,4 @@
-package TestNG;
+package Testscript;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -14,6 +14,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Base.Baseclass;
+import Pages.Login;
+import Pages.Logout;
+import Pages.videolike;
 
 public class TC7 extends Baseclass
 {
@@ -22,27 +25,11 @@ public class TC7 extends Baseclass
 	@Test
 	public void test() throws InterruptedException
 	{
-		WebElement login=driver.findElement(By.xpath(pr.getProperty("login")));
-		login.click();
+		Login object=new Login(driver,pr);
+        object.signin("kashu120012@gmail.com", "Qwerty2123");
 		
-		Thread.sleep(5000);
-		WebElement email=driver.findElement(By.xpath(pr.getProperty("email")));
-		email.sendKeys("kashu120012@gmail.com");
-		
-	
-		WebElement next=driver.findElement(By.xpath(pr.getProperty("next")));
-		next.click();
-		
-		Thread.sleep(5000);
-		WebElement password=driver.findElement(By.xpath(pr.getProperty("password")));
-		password.sendKeys("Qwerty2123");
-		
-		WebElement next2=driver.findElement(By.xpath(pr.getProperty("next2")));
-		next2.click();
-		
-		Thread.sleep(10000);
-		List<WebElement> video=driver.findElements(By.id(pr.getProperty("video")));
-		video.get(4).click();//it is going to fourth video
+        videolike like=new videolike(driver,pr);
+	     like.play();
 		
 		Thread.sleep(10000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -61,13 +48,9 @@ public class TC7 extends Baseclass
 		WebElement commentSubmit = driver.findElement(By.xpath(pr.getProperty("commentSubmit")));
 		commentSubmit.click();
 		
-		Thread.sleep(10000);
-		WebElement signout=driver.findElement(By.xpath(pr.getProperty("signout")));
-		signout.click();
+		Logout out=new Logout(driver,pr);
+		out.signout();
 		
-		Thread.sleep(5000);
-		WebElement out=driver.findElement(By.xpath(pr.getProperty("out")));
-		out.click();
 		
 	}
 	

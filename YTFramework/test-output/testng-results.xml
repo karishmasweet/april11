@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-19T23:36:58 IST" name="Default suite" finished-at="2020-06-19T23:37:48 IST" duration-ms="50222">
+  <suite started-at="2020-06-24T23:30:33 IST" name="Default suite" finished-at="2020-06-24T23:36:53 IST" duration-ms="380964">
     <groups>
     </groups>
-    <test started-at="2020-06-19T23:36:58 IST" name="Default test" finished-at="2020-06-19T23:37:48 IST" duration-ms="50222">
-      <class name="TestNG.TC1">
-        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:TestNG.TC1@5762806e]" started-at="2020-06-19T23:36:58 IST" name="browserlaunch" finished-at="2020-06-19T23:37:12 IST" duration-ms="13600" status="PASS">
+    <test started-at="2020-06-24T23:30:33 IST" name="Default test" finished-at="2020-06-24T23:36:53 IST" duration-ms="380964">
+      <class name="Testscript.TC6">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC6@15761df8]" started-at="2020-06-24T23:30:33 IST" name="browserlaunch" finished-at="2020-06-24T23:30:45 IST" duration-ms="12514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method signature="test()[pri:0, instance:TestNG.TC1@5762806e]" started-at="2020-06-19T23:37:12 IST" name="test" finished-at="2020-06-19T23:37:48 IST" duration-ms="36330" status="PASS">
+        <test-method signature="test()[pri:0, instance:Testscript.TC6@15761df8]" started-at="2020-06-24T23:30:45 IST" name="test" finished-at="2020-06-24T23:31:24 IST" duration-ms="38535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.TC1@5762806e]" started-at="2020-06-19T23:37:48 IST" name="close" finished-at="2020-06-19T23:37:48 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC6@15761df8]" started-at="2020-06-24T23:31:24 IST" name="close" finished-at="2020-06-24T23:31:24 IST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- TestNG.TC1 -->
+      </class> <!-- Testscript.TC6 -->
+      <class name="Testscript.TC7">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC7@6ab7a896]" started-at="2020-06-24T23:31:24 IST" name="browserlaunch" finished-at="2020-06-24T23:31:35 IST" duration-ms="11408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="test()[pri:0, instance:Testscript.TC7@6ab7a896]" started-at="2020-06-24T23:31:35 IST" name="test" finished-at="2020-06-24T23:32:52 IST" duration-ms="76769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC7@6ab7a896]" started-at="2020-06-24T23:32:52 IST" name="close" finished-at="2020-06-24T23:32:52 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testscript.TC7 -->
+      <class name="Testscript.TC4">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC4@327b636c]" started-at="2020-06-24T23:32:52 IST" name="browserlaunch" finished-at="2020-06-24T23:33:04 IST" duration-ms="11479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="test()[pri:0, instance:Testscript.TC4@327b636c]" started-at="2020-06-24T23:33:04 IST" name="test" finished-at="2020-06-24T23:33:40 IST" duration-ms="36050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC4@327b636c]" started-at="2020-06-24T23:33:40 IST" name="close" finished-at="2020-06-24T23:33:40 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testscript.TC4 -->
+      <class name="Testscript.TC5">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC5@45dd4eda]" started-at="2020-06-24T23:33:40 IST" name="browserlaunch" finished-at="2020-06-24T23:33:52 IST" duration-ms="11416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="test()[pri:0, instance:Testscript.TC5@45dd4eda]" started-at="2020-06-24T23:33:52 IST" name="test" finished-at="2020-06-24T23:34:30 IST" duration-ms="38311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC5@45dd4eda]" started-at="2020-06-24T23:34:30 IST" name="close" finished-at="2020-06-24T23:34:30 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testscript.TC5 -->
+      <class name="Testscript.TC2">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC2@60611244]" started-at="2020-06-24T23:34:30 IST" name="browserlaunch" finished-at="2020-06-24T23:34:42 IST" duration-ms="11481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="test()[pri:0, instance:Testscript.TC2@60611244]" started-at="2020-06-24T23:34:42 IST" name="test" finished-at="2020-06-24T23:35:18 IST" duration-ms="36050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC2@60611244]" started-at="2020-06-24T23:35:18 IST" name="close" finished-at="2020-06-24T23:35:18 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testscript.TC2 -->
+      <class name="Testscript.TC3">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC3@3745e5c6]" started-at="2020-06-24T23:35:18 IST" name="browserlaunch" finished-at="2020-06-24T23:35:29 IST" duration-ms="11464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="test()[pri:0, instance:Testscript.TC3@3745e5c6]" started-at="2020-06-24T23:35:29 IST" name="test" finished-at="2020-06-24T23:36:06 IST" duration-ms="36146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC3@3745e5c6]" started-at="2020-06-24T23:36:06 IST" name="close" finished-at="2020-06-24T23:36:06 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testscript.TC3 -->
+      <class name="Testscript.TC1">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC1@5e4c8041]" started-at="2020-06-24T23:36:06 IST" name="browserlaunch" finished-at="2020-06-24T23:36:17 IST" duration-ms="11498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="test()[pri:0, instance:Testscript.TC1@5e4c8041]" started-at="2020-06-24T23:36:17 IST" name="test" finished-at="2020-06-24T23:36:53 IST" duration-ms="36055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC1@5e4c8041]" started-at="2020-06-24T23:36:53 IST" name="close" finished-at="2020-06-24T23:36:53 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testscript.TC1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
