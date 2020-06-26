@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import Utilities.screenshotcapture;
+
 public class Login 
 
 {
@@ -26,10 +28,11 @@ public class Login
 		Thread.sleep(5000);
 		WebElement email=driver.findElement(By.xpath(pr.getProperty("email")));
 		email.sendKeys(username);
-		
+
 	
 		WebElement next=driver.findElement(By.xpath(pr.getProperty("next")));
 		next.click();
+		
 		
 		Thread.sleep(5000);
 		WebElement password=driver.findElement(By.xpath(pr.getProperty("password")));
