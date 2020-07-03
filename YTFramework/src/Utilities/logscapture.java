@@ -9,7 +9,7 @@ public class logscapture
 {
 	public static void takelogs(String classname,String message)
 	{
-		DOMConfigurator.configure("/Users/karishma/git/repositoryselenium/YTFramework/layout.xml");
+		DOMConfigurator.configure("../YTFramework/layout.xml");
 		org.apache.log4j.Logger l=Logger.getLogger(classname);
 		l.info(message);
 	}

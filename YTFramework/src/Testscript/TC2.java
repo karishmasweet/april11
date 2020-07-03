@@ -13,6 +13,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import Assertion.Assertion1;
 import Base.Baseclass;
 import Pages.Login;
 import Pages.Logout;
@@ -26,8 +27,13 @@ public class TC2 extends Baseclass
 	@Test
 	public void test() throws Exception
 	{
+		String expectedURL="https://www.youtube.com/";
 		Login object=new Login(driver,pr);
         object.signin("kashu120012@gmail.com", "Qwerty2123");
+        
+        Thread.sleep(5000);
+        
+        Assertion1.assert1(expectedURL, driver.getCurrentUrl());//soft assertion is using
         
         DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
         Date dateobj = new Date();

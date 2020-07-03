@@ -15,6 +15,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import Assertion.Assertion1;
 import Base.Baseclass;
 import Pages.Login;
 import Pages.Logout;
@@ -27,8 +28,28 @@ public class TC1 extends Baseclass
 	@Test
 	public void test() throws InterruptedException, Exception
 	{
-        Login object=new Login(driver,pr);
-        object.signin("kashu120012@gmail.com", "Qwerty2123");
+		String expectedURL="https://www.youtube.com/";
+		String expectedemail="kashu120012@gmail.com";
+		
+		Login object=new Login(driver,pr);
+        object.signin(expectedemail, "Qwerty2123");
+        
+        Thread.sleep(5000);
+        Assertion1.assert1(expectedURL, driver.getCurrentUrl());
+        
+        
+        Thread.sleep(5000);
+        WebElement image=driver.findElement(By.xpath(pr.getProperty("image")));
+		image.click();
+		Thread.sleep(5000);
+		WebElement emailbanner=driver.findElement(By.xpath("//yt-formatted-string[@id='email']"));
+		String actualEmailID=emailbanner.getText();
+		//System.out.println(actualEmailID);
+		//System.out.println("abc"+emailbanner.getAttribute("textContent"));
+		
+		Thread.sleep(5000);
+        Assertion1.assert1(expectedemail,actualEmailID);
+        //System.out.println(expectedemail +" "+ actualEmailID);
         
        DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
        Date  dateobj = new Date();

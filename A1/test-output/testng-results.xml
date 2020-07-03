@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-09T21:56:45 IST" name="Default suite" finished-at="2020-06-09T21:56:45 IST" duration-ms="136">
+    <groups>
+    </groups>
+    <test started-at="2020-06-09T21:56:45 IST" name="Default test" finished-at="2020-06-09T21:56:45 IST" duration-ms="136">
+      <class name="June_6.testng">
+        <test-method is-config="true" signature="methodone()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="methodone" finished-at="2020-06-09T21:56:45 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodone -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="method2" finished-at="2020-06-09T21:56:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="cde()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="cde" finished-at="2020-06-09T21:56:45 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cde -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="method3" finished-at="2020-06-09T21:56:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="method2" finished-at="2020-06-09T21:56:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="qqb()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="qqb" finished-at="2020-06-09T21:56:45 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qqb -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="method3" finished-at="2020-06-09T21:56:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="abc()[pri:1, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="abc" finished-at="2020-06-09T21:56:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="method2" finished-at="2020-06-09T21:56:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="method3" finished-at="2020-06-09T21:56:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method is-config="true" signature="method4()[pri:0, instance:June_6.testng@14ec4505]" started-at="2020-06-09T21:56:45 IST" name="method4" finished-at="2020-06-09T21:56:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- June_6.testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

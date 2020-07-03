@@ -7,6 +7,7 @@
         <methods>
           <include name="test"/>
           <include name="browserlaunch"/>
+          <include name="close"/>
         </methods>
       </class> <!-- Testscript.TC1 -->
     </classes>

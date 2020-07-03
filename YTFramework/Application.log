@@ -90,3 +90,63 @@
 2020-06-26 12:02:40 {TC1} (main:) login successfully
 2020-06-26 12:02:51 {TC1} (main:) Click on trending successfully
 2020-06-26 12:03:09 {TC1} (main:) signout successfully
+2020-06-27 00:53:28 {TC1} (main:) login successfully
+2020-06-27 00:53:39 {TC1} (main:) Click on trending successfully
+2020-06-27 00:53:57 {TC1} (main:) signout successfully
+2020-07-02 22:26:06 {TC1} (main:) login successfully
+2020-07-02 22:26:16 {TC1} (main:) Click on trending successfully
+2020-07-02 22:26:34 {TC1} (main:) signout successfully
+2020-07-02 22:28:11 {TC1} (main:) login successfully
+2020-07-02 22:28:22 {TC1} (main:) Click on trending successfully
+2020-07-02 22:28:38 {TC1} (main:) signout successfully
+2020-07-02 22:29:55 {TC1} (main:) login successfully
+2020-07-02 22:30:06 {TC1} (main:) Click on trending successfully
+2020-07-02 22:30:23 {TC1} (main:) signout successfully
+2020-07-02 22:52:21 {TC1} (main:) login successfully
+2020-07-02 22:52:32 {TC1} (main:) Click on trending successfully
+2020-07-02 22:52:48 {TC1} (main:) signout successfully
+2020-07-02 23:09:36 {TC1} (main:) login successfully
+2020-07-02 23:09:47 {TC1} (main:) Click on trending successfully
+2020-07-02 23:10:04 {TC1} (main:) signout successfully
+2020-07-02 23:13:32 {TC1} (main:) login successfully
+2020-07-02 23:13:43 {TC1} (main:) Click on trending successfully
+2020-07-02 23:14:00 {TC1} (main:) signout successfully
+2020-07-03 13:35:12 {TC1} (main:) login successfully
+2020-07-03 13:35:23 {TC1} (main:) Click on trending successfully
+2020-07-03 13:35:41 {TC1} (main:) signout successfully
+2020-07-03 13:38:32 {TC1} (main:) login successfully
+2020-07-03 13:38:44 {TC1} (main:) Click on trending successfully
+2020-07-03 13:39:04 {TC1} (main:) signout successfully
+2020-07-03 13:40:26 {TC1} (main:) login successfully
+2020-07-03 13:40:37 {TC1} (main:) Click on trending successfully
+2020-07-03 13:40:56 {TC1} (main:) signout successfully
+2020-07-03 13:45:26 {TC1} (main:) login successfully
+2020-07-03 13:45:39 {TC1} (main:) Click on trending successfully
+2020-07-03 13:45:59 {TC1} (main:) signout successfully
+2020-07-03 14:13:21 {TC1} (main:) login successfully
+2020-07-03 14:13:33 {TC1} (main:) Click on trending successfully
+2020-07-03 14:13:50 {TC1} (main:) signout successfully
+2020-07-03 14:17:01 {TC1} (main:) login successfully
+2020-07-03 14:17:13 {TC1} (main:) Click on trending successfully
+2020-07-03 14:17:30 {TC1} (main:) signout successfully
+2020-07-03 14:23:45 {TC1} (main:) login successfully
+2020-07-03 14:23:57 {TC1} (main:) Click on trending successfully
+2020-07-03 14:24:15 {TC1} (main:) signout successfully
+2020-07-03 14:29:56 {TC1} (main:) login successfully
+2020-07-03 14:30:08 {TC1} (main:) Click on trending successfully
+2020-07-03 14:30:26 {TC1} (main:) signout successfully
+2020-07-03 14:53:20 {TC1} (main:) login successfully
+2020-07-03 14:53:32 {TC1} (main:) Click on trending successfully
+2020-07-03 14:53:49 {TC1} (main:) signout successfully
+2020-07-03 14:55:11 {TC1} (main:) login successfully
+2020-07-03 14:55:23 {TC1} (main:) Click on trending successfully
+2020-07-03 14:55:40 {TC1} (main:) signout successfully
+2020-07-03 20:01:12 {TC1} (main:) login successfully
+2020-07-03 20:01:24 {TC1} (main:) Click on trending successfully
+2020-07-03 20:01:41 {TC1} (main:) signout successfully
+2020-07-03 20:06:38 {TC2} (main:) login successfully of TC2
+2020-07-03 20:06:49 {TC2} (main:) Click on subscription successfully of TC2
+2020-07-03 20:07:06 {TC2} (main:) logout successfully of TC2
+2020-07-03 20:12:54 {TC1} (main:) login successfully
+2020-07-03 20:13:06 {TC1} (main:) Click on trending successfully
+2020-07-03 20:13:23 {TC1} (main:) signout successfully
