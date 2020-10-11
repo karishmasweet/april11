@@ -18,7 +18,7 @@ public class Baseclass
 	@BeforeMethod
 	 public void browserlaunch() throws InterruptedException, IOException
 	 {
-		 System.setProperty("webdriver.chrome.driver","/Users/karishma/eclipse-workspace/A1/chromedriver");
+		 System.setProperty("webdriver.chrome.driver","/Users/karishma/git/repositoryselenium/A1/chromedriver");
 		 ChromeOptions options = new ChromeOptions();
 		 options.setPageLoadStrategy(PageLoadStrategy.NONE);
 		 driver=new ChromeDriver(options);

@@ -21,5 +21,6 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/karishma/Downloads/commons.io_2.0.1.jar"/>
 	<classpathentry kind="lib" path="/Users/karishma/Downloads/log4j.jar"/>
+	<classpathentry kind="lib" path="/Users/karishma/Downloads/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

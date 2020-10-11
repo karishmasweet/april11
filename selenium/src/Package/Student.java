@@ -10,6 +10,7 @@ public class Student
   System.out.println("Welcome guys");
    }
   
+  
   public static void main(String[] args) 
   {
 	  Student rishu=new Student();
@@ -18,6 +19,8 @@ public class Student
 	  rishu.roll_no=12;
 	  System.out.println("age is "+rishu.age);
 	  System.out.println("roll_no is "+rishu.roll_no);
+	  
+	  
   }
 	
    }
