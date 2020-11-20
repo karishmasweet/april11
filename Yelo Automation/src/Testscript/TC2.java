@@ -11,44 +11,49 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TC2 
+import Base.Baseclassone;
+import Pages.AdminLogin;
+import Pages.Adminlogout;
+
+public class TC2 extends Baseclassone //Sign In
 {
-	public ChromeDriver driver;
-	@BeforeMethod
-	 public void browserlaunch() throws InterruptedException, IOException
-	 {
-		System.setProperty("webdriver.chrome.driver","../Yelo Automation/chromedriver");
-		 ChromeOptions options = new ChromeOptions();
-		 options.setPageLoadStrategy(PageLoadStrategy.NONE);
-		 driver=new ChromeDriver(options);
-	     driver.manage().window().maximize();
-	     driver.get("https://admin.yelo.red/en/signup/step1");
-	     Thread.sleep(10000);
-	 }
 	
 	@Test
 	 public void signin() throws InterruptedException 
 	 {
 
-		 WebElement next=driver.findElement(By.xpath("//a[contains(@class,'color-blue')]"));
-		 next.click();
-			
-		Thread.sleep(5000);
-		WebElement email=driver.findElement(By.xpath("//input[@name='email']"));
-		email.sendKeys("kanika1004@yopmail.com");
+//		 WebElement next=driver.findElement(By.xpath("//a[contains(@class,'color-blue')]"));
+//		 next.click();
+//			
+//		Thread.sleep(5000);
+//		WebElement email=driver.findElement(By.xpath("//input[@name='email']"));
+//		email.sendKeys("kanika10005@yopmail.com");
+//		
+//		WebElement password=driver.findElement(By.xpath("//input[@name='password']"));
+//		password.sendKeys("Qwerty@123");
+//		
+//		WebElement login=driver.findElement(By.xpath("//button[@type='submit']"));
+//		login.click();
 		
-		WebElement password=driver.findElement(By.xpath("//input[@name='password']"));
-		password.sendKeys("Qwerty@123");
+		AdminLogin obj=new AdminLogin(driver);
+		obj.signin();
 		
-		WebElement login=driver.findElement(By.xpath("//button[@type='submit']"));
-		login.click();
+		Adminlogout out=new Adminlogout(driver);
+		out.admin_logout();
+		
+	
+		
+//		Thread.sleep(5000);
+//		WebElement setting=driver.findElement(By.xpath("//*[@class='ng-tns-c21-1 yf yf-settings1 sidebarIcon']"));
+//		setting.click();
+//		
+//		Thread.sleep(5000);
+//		WebElement logout=driver.findElement(By.xpath("//body/app-root[1]/app-dashboard[1]/div[1]/div[2]/app-settings[1]/div[1]/div[2]/i[1]/img[1]"));
+//		logout.click();
+		
+		
 		
 	 }
 	
-	@AfterMethod
-	public void close()
-	{
-		driver.close();
-	}
 
 }

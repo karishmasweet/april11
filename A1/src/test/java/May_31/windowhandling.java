@@ -14,7 +14,7 @@ public class windowhandling
 {public static ChromeDriver driver;
 public static void main(String[] args) throws InterruptedException
 {
-	System.setProperty("webdriver.chrome.driver","/Users/karishma/eclipse-workspace/A1/chromedriver");
+	System.setProperty("webdriver.chrome.driver","../A1/chromedriver ");
 	ChromeOptions options = new ChromeOptions();
 	options.setPageLoadStrategy(PageLoadStrategy.NONE);
 	driver=new ChromeDriver(options);

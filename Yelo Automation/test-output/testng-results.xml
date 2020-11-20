@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-12T02:01:22 IST" name="Default suite" finished-at="2020-10-12T02:02:08 IST" duration-ms="45973">
+  <suite started-at="2020-11-21T00:30:02 IST" name="Default suite" finished-at="2020-11-21T00:32:01 IST" duration-ms="119739">
     <groups>
     </groups>
-    <test started-at="2020-10-12T02:01:22 IST" name="Default test" finished-at="2020-10-12T02:02:08 IST" duration-ms="45973">
-      <class name="Testscript.TC2">
-        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC2@5af3afd9]" started-at="2020-10-12T02:01:22 IST" name="browserlaunch" finished-at="2020-10-12T02:01:34 IST" duration-ms="12332" status="PASS">
+    <test started-at="2020-11-21T00:30:02 IST" name="Default test" finished-at="2020-11-21T00:32:01 IST" duration-ms="119739">
+      <class name="Testscript.TC13">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC13@5ffead27]" started-at="2020-11-21T00:30:02 IST" name="browserlaunch" finished-at="2020-11-21T00:30:14 IST" duration-ms="12164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method signature="signin()[pri:0, instance:Testscript.TC2@5af3afd9]" started-at="2020-10-12T02:01:34 IST" name="signin" finished-at="2020-10-12T02:01:40 IST" duration-ms="5897" status="PASS">
+        <test-method signature="Different_status_booking()[pri:0, instance:Testscript.TC13@5ffead27]" started-at="2020-11-21T00:30:14 IST" name="Different_status_booking" finished-at="2020-11-21T00:32:01 IST" duration-ms="107378" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC2@5af3afd9]" started-at="2020-10-12T02:01:40 IST" name="close" finished-at="2020-10-12T02:01:40 IST" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testscript.TC2 -->
-      <class name="Testscript.TC1">
-        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC1@323b36e0]" started-at="2020-10-12T02:01:40 IST" name="browserlaunch" finished-at="2020-10-12T02:01:52 IST" duration-ms="11480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserlaunch -->
-        <test-method signature="signup()[pri:0, instance:Testscript.TC1@323b36e0]" started-at="2020-10-12T02:01:52 IST" name="signup" finished-at="2020-10-12T02:02:07 IST" duration-ms="15902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signup -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC1@323b36e0]" started-at="2020-10-12T02:02:07 IST" name="close" finished-at="2020-10-12T02:02:08 IST" duration-ms="153" status="PASS">
+        </test-method> <!-- Different_status_booking -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC13@5ffead27]" started-at="2020-11-21T00:32:01 IST" name="close" finished-at="2020-11-21T00:32:01 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Testscript.TC1 -->
+      </class> <!-- Testscript.TC13 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

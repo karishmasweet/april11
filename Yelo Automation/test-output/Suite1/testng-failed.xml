@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="Command line test f173179e-c6eb-4ac2-96e8-0c93e8ef1f08(failed)">
+    <classes>
+      <class name="Testscript.TC14">
+        <methods>
+          <include name="close"/>
+          <include name="admin_cancelbooking"/>
+          <include name="browserlaunch"/>
+        </methods>
+      </class> <!-- Testscript.TC14 -->
+    </classes>
+  </test> <!-- Command line test f173179e-c6eb-4ac2-96e8-0c93e8ef1f08(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

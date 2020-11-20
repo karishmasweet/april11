@@ -1,0 +1,221 @@
+<html>
+<head>
+<title>TestNG:  Command line test d32d0615-e006-44e7-875d-2bf793eeaab9</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test d32d0615-e006-44e7-875d-2bf793eeaab9</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 22 15:48:12 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>455 seconds (455867 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testscript.TC4.signin()'><b>signin</b><br>Test class: Testscript.TC4</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;ui-toast-detail&apos;]&quot;}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;karishmas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1812:7eb1:4f25:9766%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/4n/g7b3mygx47d...}, goog:chromeOptions: {debuggerAddress: localhost:50868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 11ab27f97ed8a40334d7635e32ce566e
+*** Element info: {Using=xpath, value=//*[@class=&apos;ui-toast-detail&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Testscript.TC4.signin(TC4.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at Runner.triggerclass.main(triggerclass.java:70)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22668134", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22668134'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;ui-toast-detail&apos;]&quot;}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;karishmas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1812:7eb1:4f25:9766%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/4n/g7b3mygx47d...}, goog:chromeOptions: {debuggerAddress: localhost:50868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 11ab27f97ed8a40334d7635e32ce566e
+*** Element info: {Using=xpath, value=//*[@class=&apos;ui-toast-detail&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Testscript.TC4.signin(TC4.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at Runner.triggerclass.main(triggerclass.java:70)
+</pre></div></td>
+<td>5</td>
+<td>Testscript.TC4@42eca56e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testscript.TC6.Blankpassword()'><b>Blankpassword</b><br>Test class: Testscript.TC6</td>
+<td></td>
+<td>10</td>
+<td>Testscript.TC6@52f759d7</td></tr>
+<tr>
+<td title='Testscript.TC7.Blankusername()'><b>Blankusername</b><br>Test class: Testscript.TC7</td>
+<td></td>
+<td>10</td>
+<td>Testscript.TC7@192d3247</td></tr>
+<tr>
+<td title='Testscript.TC10.booking_flow_by_admin()'><b>booking_flow_by_admin</b><br>Test class: Testscript.TC10</td>
+<td></td>
+<td>67</td>
+<td>Testscript.TC10@43bd930a</td></tr>
+<tr>
+<td title='Testscript.TC12.booking_flow_bypanel()'><b>booking_flow_bypanel</b><br>Test class: Testscript.TC12</td>
+<td></td>
+<td>71</td>
+<td>Testscript.TC12@33723e30</td></tr>
+<tr>
+<td title='Testscript.TC9.check_continue_button_is_Disabled()'><b>check_continue_button_is_Disabled</b><br>Test class: Testscript.TC9</td>
+<td></td>
+<td>0</td>
+<td>Testscript.TC9@569cfc36</td></tr>
+<tr>
+<td title='Testscript.TC11.check_errormessage_left_emailbox()'><b>check_errormessage_left_emailbox</b><br>Test class: Testscript.TC11</td>
+<td></td>
+<td>10</td>
+<td>Testscript.TC11@7cbd213e</td></tr>
+<tr>
+<td title='Testscript.TC3.facebooksignup()'><b>facebooksignup</b><br>Test class: Testscript.TC3</td>
+<td></td>
+<td>32</td>
+<td>Testscript.TC3@6950e31</td></tr>
+<tr>
+<td title='Testscript.TC5.facebooksignup()'><b>facebooksignup</b><br>Test class: Testscript.TC5</td>
+<td></td>
+<td>42</td>
+<td>Testscript.TC5@b7dd107</td></tr>
+<tr>
+<td title='Testscript.TC2.signin()'><b>signin</b><br>Test class: Testscript.TC2</td>
+<td></td>
+<td>16</td>
+<td>Testscript.TC2@4671e53b</td></tr>
+<tr>
+<td title='Testscript.TC1.signup()'><b>signup</b><br>Test class: Testscript.TC1</td>
+<td></td>
+<td>30</td>
+<td>Testscript.TC1@2db7a79b</td></tr>
+<tr>
+<td title='Testscript.TC8.signupinvalid()'><b>signupinvalid</b><br>Test class: Testscript.TC8</td>
+<td></td>
+<td>15</td>
+<td>Testscript.TC8@3ecd23d9</td></tr>
+</table><p>
+</body>
+</html>

@@ -13,21 +13,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import Base.Baseclassone;
 
-public class TC1 
+
+public class TC1 extends Baseclassone//Sign up
 {
-	public ChromeDriver driver;
-	@BeforeMethod
-	 public void browserlaunch() throws InterruptedException, IOException
-	 {
-		System.setProperty("webdriver.chrome.driver","../Yelo Automation/chromedriver");
-		 ChromeOptions options = new ChromeOptions();
-		 options.setPageLoadStrategy(PageLoadStrategy.NONE);
-		 driver=new ChromeDriver(options);
-	     driver.manage().window().maximize();
-	     driver.get("https://admin.yelo.red/en/signup/step1");
-	     Thread.sleep(10000);
-	 }
+	
  @Test
  public void signup() throws InterruptedException 
  {
@@ -36,7 +27,7 @@ public class TC1
 	 
 
 	 WebElement enteremail=driver.findElement(By.xpath("//input[@name='email']"));
-	 enteremail.sendKeys("kanika1006@yopmail.com");
+	 enteremail.sendKeys("kanika1024@yopmail.com");
 	 
 	 
 	 WebElement enterpassword=driver.findElement(By.xpath("//input[@id='yelo-password']"));
@@ -51,7 +42,7 @@ public class TC1
 	 
 	 Thread.sleep(5000);
 	 WebElement enterbusinessname=driver.findElement(By.xpath("//input[@formcontrolname='marketplaceName']"));
-	 enterbusinessname.sendKeys("webtechsix");
+	 enterbusinessname.sendKeys("webtechTwityfour");
 	 
 	 Thread.sleep(5000);
 	 WebElement Next=driver.findElement(By.xpath("//button[@type='submit']"));
@@ -65,12 +56,15 @@ public class TC1
 
 	    WebElement nextbutton=driver.findElement(By.xpath("//button[contains(@class,'next-btn')] "));
 		nextbutton.click();
+		
+		Thread.sleep(9000);
+		WebElement setting=driver.findElement(By.xpath("//*[@class='ng-tns-c22-1 yf yf-settings1 sidebarIcon']"));
+		setting.click();
+		
+		Thread.sleep(5000);
+		WebElement logout=driver.findElement(By.xpath("//*[@ptooltip='Logout']"));
+		logout.click();
  }
  
- @AfterMethod
-	public void close()
-	{
-		driver.close();
-	}
-	
+ 
 }

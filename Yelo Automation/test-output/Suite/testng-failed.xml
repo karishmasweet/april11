@@ -5,8 +5,9 @@
     <classes>
       <class name="Testscript.TC1">
         <methods>
-          <include name="browserlaunch"/>
+          <include name="close"/>
           <include name="signup"/>
+          <include name="browserlaunch"/>
         </methods>
       </class> <!-- Testscript.TC1 -->
     </classes>
