@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testscript.TC13">
+      <class name="Testscript.TC4">
         <methods>
           <include name="close"/>
           <include name="browserlaunch"/>
-          <include name="Different_status_booking"/>
+          <include name="login_by_wrong_email_and_password"/>
         </methods>
-      </class> <!-- Testscript.TC13 -->
+      </class> <!-- Testscript.TC4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

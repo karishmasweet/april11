@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-21T00:30:02 IST" name="Default suite" finished-at="2020-11-21T00:32:01 IST" duration-ms="119739">
+  <suite started-at="2020-12-20T00:03:14 IST" name="Default suite" finished-at="2020-12-20T00:03:38 IST" duration-ms="23757">
     <groups>
     </groups>
-    <test started-at="2020-11-21T00:30:02 IST" name="Default test" finished-at="2020-11-21T00:32:01 IST" duration-ms="119739">
-      <class name="Testscript.TC13">
-        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC13@5ffead27]" started-at="2020-11-21T00:30:02 IST" name="browserlaunch" finished-at="2020-11-21T00:30:14 IST" duration-ms="12164" status="PASS">
+    <test started-at="2020-12-20T00:03:14 IST" name="Default test" finished-at="2020-12-20T00:03:38 IST" duration-ms="23757">
+      <class name="Testscript.TC7">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Testscript.TC7@323b36e0]" started-at="2020-12-20T00:03:14 IST" name="browserlaunch" finished-at="2020-12-20T00:03:27 IST" duration-ms="12999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method signature="Different_status_booking()[pri:0, instance:Testscript.TC13@5ffead27]" started-at="2020-11-21T00:30:14 IST" name="Different_status_booking" finished-at="2020-11-21T00:32:01 IST" duration-ms="107378" status="PASS">
+        <test-method signature="Blankusername()[pri:0, instance:Testscript.TC7@323b36e0]" started-at="2020-12-20T00:03:27 IST" name="Blankusername" finished-at="2020-12-20T00:03:38 IST" duration-ms="10556" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Different_status_booking -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC13@5ffead27]" started-at="2020-11-21T00:32:01 IST" name="close" finished-at="2020-11-21T00:32:01 IST" duration-ms="150" status="PASS">
+        </test-method> <!-- Blankusername -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testscript.TC7@323b36e0]" started-at="2020-12-20T00:03:38 IST" name="close" finished-at="2020-12-20T00:03:38 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Testscript.TC13 -->
+      </class> <!-- Testscript.TC7 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
