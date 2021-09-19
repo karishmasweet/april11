@@ -1,10 +1,9 @@
 package May_16;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import org.seleniumhq.jetty9.server.LowResourceMonitor.MainThreadPoolLowResourceCheck;
 
 public class junit 
@@ -34,7 +33,7 @@ public class junit
 		System.out.println("here I am sign up code second one");
 	}
 	
-	@After//whatever you want to execute after test case
+	@AfterMethod
 	public void method2()
 	{
 		//Write the code her

@@ -1,8 +1,8 @@
 package May_23;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
@@ -14,8 +14,8 @@ public class may_assignment_xpath
 {
 	public ChromeDriver driver;
 	
-	@Before
-	 public void browserlaunch() throws InterruptedException
+	@BeforeMethod
+	public void browserlaunch() throws InterruptedException
 	 {
 		 System.setProperty("webdriver.chrome.driver","/Users/karishma/eclipse-workspace/A1/chromedriver");
 		 ChromeOptions options = new ChromeOptions();
@@ -78,7 +78,7 @@ public class may_assignment_xpath
 		 WebElement submit=driver.findElement(By.xpath("//button[@id='u_0_13']"));
 			submit.click();
 	}
-		@After
+		@AfterMethod
 		public void close()
 			 {
 			 driver.close();

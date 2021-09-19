@@ -1,8 +1,8 @@
 package May_16;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
@@ -13,8 +13,8 @@ import org.openqa.selenium.support.ui.Select;
 public class junit_assignmnetsignup 
 {
  public static ChromeDriver driver;
- @Before
- public void launch() throws InterruptedException
+ @BeforeMethod
+public void launch() throws InterruptedException
  {
 	 System.setProperty("webdriver.chrome.driver","/Users/karishma/eclipse-workspace/A1/chromedriver");
 		ChromeOptions options = new ChromeOptions();
@@ -64,8 +64,8 @@ public class junit_assignmnetsignup
 	 submit.click();
  }
  
- @After
- public void close()
+ @AfterMethod
+public void close()
  {
 	 driver.close();
  }
