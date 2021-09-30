@@ -31,6 +31,9 @@ public class Baseclass
 	     pr= new Properties();
 	     pr.load(fi);
 	     
+	     
+	     
+	     
 	 }
 	
 	@AfterMethod
