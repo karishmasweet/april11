@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="May_16.junit_assignmentthree"/>
+      <class name="May_23.junit_genricmethod_xpath"/>
+      <class name="May_16.junit"/>
+      <class name="May_23.may_assignment_xpath"/>
+      <class name="June_6.testng"/>
+      <class name="May_16.junit_assignmnetsignup"/>
+      <class name="May_16.junit_assignmenttwogeneric"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
